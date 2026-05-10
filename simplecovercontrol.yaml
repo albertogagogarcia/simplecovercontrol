@@ -1,8 +1,8 @@
 blueprint:
-  name: Roller control with dual button device (Open/Close + 50% aperture with double click in any button)
+  name: Roller control with dual button device (Open/Close/Stop) + 50% aperture with double click in any button)
   description: >
     Single click: If roller/cover/blind is moving → stop, otherwise → open / close.
-    Doble pulsación (cualquier botón): posición 50%.
+    Double click (any button): 50% position.
   domain: automation
   input:
     buttondevice:
